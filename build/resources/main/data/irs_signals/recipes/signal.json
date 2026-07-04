@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "pattern": [
+    "IRI",
+    "ITI",
+    "IRI"
+  ],
+  "key": {
+    "I": { "item": "minecraft:iron_ingot" },
+    "R": { "item": "minecraft:redstone" },
+    "T": { "item": "minecraft:redstone_torch" }
+  },
+  "result": {
+    "item": "irs_signals:signal",
+    "count": 4
+  }
+}

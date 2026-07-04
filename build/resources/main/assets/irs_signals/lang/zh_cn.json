@@ -1,0 +1,15 @@
+{
+  "itemGroup.irs_signals": "沉浸铁路信号系统",
+  "block.irs_signals.signal": "三灯信号机",
+  "item.irs_signals.signal_linker": "信号链路工具",
+
+  "item.irs_signals.signal_linker.tooltip.line1": "右键连接相邻信号机以划分闭塞区间",
+  "item.irs_signals.signal_linker.tooltip.line2": "潜行右键信号机清除其连接 / 潜行右键空气取消选择",
+  "item.irs_signals.signal_linker.tooltip.line3": "需以沉浸铁路为前置",
+
+  "msg.irs_signals.link.select": "已选定起点信号机 §a%s§r，请右键下一架信号机完成连接",
+  "msg.irs_signals.link.success": "已连接闭塞区间：§a%s§r → §b%s§r",
+  "msg.irs_signals.link.cleared": "已清除信号机 §a%s§r 的下一架连接",
+  "msg.irs_signals.link.cancel": "已取消链路选择",
+  "msg.irs_signals.link.lost": "起点信号机已失效，连接失败"
+}

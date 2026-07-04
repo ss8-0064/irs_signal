@@ -1,0 +1,18 @@
+{
+  "variants": {
+    "aspect=red,facing=north": { "model": "irs_signals:block/signal_red" },
+    "aspect=red,facing=south": { "model": "irs_signals:block/signal_red", "y": 180 },
+    "aspect=red,facing=east":  { "model": "irs_signals:block/signal_red", "y": 90 },
+    "aspect=red,facing=west":  { "model": "irs_signals:block/signal_red", "y": 270 },
+
+    "aspect=yellow,facing=north": { "model": "irs_signals:block/signal_yellow" },
+    "aspect=yellow,facing=south": { "model": "irs_signals:block/signal_yellow", "y": 180 },
+    "aspect=yellow,facing=east":  { "model": "irs_signals:block/signal_yellow", "y": 90 },
+    "aspect=yellow,facing=west":  { "model": "irs_signals:block/signal_yellow", "y": 270 },
+
+    "aspect=green,facing=north": { "model": "irs_signals:block/signal_green" },
+    "aspect=green,facing=south": { "model": "irs_signals:block/signal_green", "y": 180 },
+    "aspect=green,facing=east":  { "model": "irs_signals:block/signal_green", "y": 90 },
+    "aspect=green,facing=west":  { "model": "irs_signals:block/signal_green", "y": 270 }
+  }
+}

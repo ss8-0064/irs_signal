@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Specification-Title: irs_signals
+Specification-Vendor: WorkBuddy
+Specification-Version: 1
+Implementation-Title: modproject
+Implementation-Version: 1.0.0
+Implementation-Vendor: WorkBuddy
+Implementation-Timestamp: 2026-07-03T09:40:47+0800
+

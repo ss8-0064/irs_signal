@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "north": "irs_signals:block/signal_yellow",
+    "south": "irs_signals:block/signal_yellow",
+    "east": "irs_signals:block/signal_yellow",
+    "west": "irs_signals:block/signal_yellow",
+    "up": "irs_signals:block/signal_casing",
+    "down": "irs_signals:block/signal_casing",
+    "particle": "irs_signals:block/signal_yellow"
+  }
+}

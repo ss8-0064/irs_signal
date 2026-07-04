@@ -1,0 +1,35 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="irs_signals"
+version="1.0.0"
+displayName="Immersive Railroading Signals"
+authors="WorkBuddy"
+description='''Fixed-block signalling system with three-aspect (red/yellow/green) signals, designed as a companion to Immersive Railroading. Provides track-circuit occupancy detection and automatic aspect propagation between linked signals.'''
+
+# Required: Forge
+[[dependencies.irs_signals]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+# Required: Minecraft
+[[dependencies.irs_signals]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.21)"
+    ordering="NONE"
+    side="BOTH"
+
+# Required prerequisite: Immersive Railroading (沉浸铁路)
+# This mod builds on top of IR by detecting its rolling-stock entities.
+[[dependencies.irs_signals]]
+    modId="immersiverailroading"
+    mandatory=true
+    versionRange="[1.0,)"
+    ordering="AFTER"
+    side="BOTH"

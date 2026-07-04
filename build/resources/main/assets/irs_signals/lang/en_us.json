@@ -1,0 +1,15 @@
+{
+  "itemGroup.irs_signals": "Immersive Railroading Signals",
+  "block.irs_signals.signal": "Three-Aspect Signal",
+  "item.irs_signals.signal_linker": "Signal Linker",
+
+  "item.irs_signals.signal_linker.tooltip.line1": "Right-click signals in order to link them into a block section",
+  "item.irs_signals.signal_linker.tooltip.line2": "Sneak-right-click a signal to clear its link / sneak-right-click air to cancel",
+  "item.irs_signals.signal_linker.tooltip.line3": "Requires Immersive Railroading",
+
+  "msg.irs_signals.link.select": "Source signal selected: §a%s§r. Right-click the next signal to link.",
+  "msg.irs_signals.link.success": "Block section linked: §a%s§r -> §b%s§r",
+  "msg.irs_signals.link.cleared": "Cleared next-signal link at §a%s§r",
+  "msg.irs_signals.link.cancel": "Link selection cancelled",
+  "msg.irs_signals.link.lost": "Source signal no longer exists, link failed"
+}
